@@ -1,0 +1,63 @@
+<!DOCTYPE.html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>NEW WING TECH</title>
+<link rel="stylesheet" href="Estyle.css">
+
+</head>
+
+<body>
+<div class="header">
+<div class="container">
+<div class="navbar">
+<div class="logo">
+<img src="images/Cross.png"width="125px">
+</div>
+<nav> 
+<ul id="MenuItems">
+<li><a href="#">Home</a></li>
+<li><a href="#">Bookings</a></li>
+<li><a href="#">Live Tours</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+<img src="images/thatom.jpg" class="menu-icon" onclick="menutoggle()">
+</div>
+<div class="row">
+<div class="col-2">
+<h1>Qhawe<br><span></span></h1>
+<p>Qhawe LeNkosi is a young man from Soweto. Born and breed in Soweto. Grew up in a township called Zola "kwamshaye azafe" or ekasi labo lova" as they say. He started school at lindisa primary school in evaton but finished of his primary school at Thulani Primary School in Zola Soweto. Then High School he went to Prudens Secondary School in Tladi Soweto. He matriculated there. Qhawe fell in love with music at the age of 8 years while he was doing  grade 3. He used to climb on desks recite songs of his favourite group artist Cash Time Life 
+    That grew into loving international artist like J Cole, Eminem, Kendrick Lamar e.t.c 
+    That encouraged him to start write his own songs. He made his very first song in 2020 when he was doing grade 9. 2022 January Qhawe LeNkosi met Christ and got saved, then he began to do Christian music begin with his very first song "Walk with God" talking about how his journey began with God. He even started a movement called Life Life Begins with Christ</p>
+<a href="" class="btn">BOOK NOW &#8594</a>
+</div>
+<div class="col-2">
+<img src="images/Logopic.jpg" width="600px" height="650px">
+</div>
+</div>
+</div>
+</div>
+
+
+<!-------------js for toggle menu------------->
+
+<script>
+var MenuItems =document.getElementById("MenuItems");
+
+MenuItems.style.maxHeight = "0px";
+
+function menutoggle(){
+if(MenuItems.style.maxHeight == "0px")
+{
+ MenuItems.style.maxHeight = "200px";
+}
+else
+{
+MenuItems.style.maxHeight = "0px";
+}
+}
+</script>
+</html>
